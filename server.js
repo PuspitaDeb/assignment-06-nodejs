@@ -30,7 +30,7 @@ const server = http.createServer((req, res) => {
         `);
     }
 
-    // About Route
+
     else if (url === "/about") {
 
         res.writeHead(200, {
@@ -71,7 +71,7 @@ const server = http.createServer((req, res) => {
                 <h1>Contact Page</h1>
 
                 <p>
-                    Email: contact@example.com
+                    Email: xyz@example.com
                 </p>
 
                 <a href="/">Home</a> |
